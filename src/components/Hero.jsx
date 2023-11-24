@@ -6,8 +6,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className='text-white'>
-        <div className=' w-[70%] h-full mt-[200px] mx-auto text-left flex flex-col justify-center'>
-            <p className=' font-homepage text-7xl font-black'>
+        <div className=' max-w-[800px] w-[90%] h-full mt-[200px] mx-auto text-left flex flex-col justify-center'>
+            <p className=' font-homepage md:text-7xl sm:text-6xl text-4xl font-black'>
                 RESEARCH<br/>
                 EXPERIMENTATION<br/>
                 DEPARTMENT

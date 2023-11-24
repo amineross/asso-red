@@ -1,23 +1,42 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Logo from '../assets/Logo.svg'
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 
 const NavBar = () => {
+    const [nav, setNav] = useState(false);
+
+    const handleNav = () => {
+        setNav(!nav);
+    }
   return (
-    <div className='text-gray-300 flex text-right'>
+    <div className='text-gray-300 flex'>
         <div className=' text-gray-300 flex justify-between items-center h-24 w-full max-w-[1240px] mx-auto px-4'>
-            <ul className='z-10 flex justify-between w-[90%] mx-auto mt-[40px] text-xl'>
-                <li className='p-4 hover:text-[#C91B0E] cursor-pointer hidden'>Association</li>
-                <li className='p-4 hover:text-[#C91B0E] cursor-pointer hidden'>Local</li>
+            <ul className=' z-10 hidden md:flex justify-between w-[90%] mx-auto mt-[40px] text-xl'>
+                <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Association</li>
+                <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Local</li>
                 <img src={Logo} alt="RED Logo" className=' scale-75'/>
-                <li className='p-4 hover:text-[#C91B0E] cursor-pointer hidden'>Bureau</li>
-                <li className='p-4 hover:text-[#C91B0E] cursor-pointer hidden'>Projets</li>
+                <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Bureau</li>
+                <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Projets</li>
             </ul>
             
         </div>
-        <div className='z-10 px-4 mx-10 mt-[40px] cursor-pointer'>
-            <AiOutlineMenu size={40}/>
+        <div onClick={handleNav} className='block md:hidden z-10 px-4 mx-10 mt-[40px] cursor-pointer'>
+            {!nav ? <AiOutlineClose size={40}/> : <AiOutlineMenu size={40}/>}
+        </div>
+
+        {/* Mobile Navbar */}
+
+        <img src={Logo} alt="RED Logo" className='md:hidden fixed left-[25px] top-[25px] scale-75'/>
+        
+        <div className={!nav ? 'z-20 fixed left-0 top-0 w-[60%] h-screen border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+            <ul className='pt-8 uppercase'>
+                <img src={Logo} alt="RED Logo" className=' scale-75'/>
+                <li className='p-6 border-b border-gray-100 hover:text-[#C91B0E] cursor-pointer'>Association</li>
+                <li className='p-6 border-b border-gray-100 hover:text-[#C91B0E] cursor-pointer'>Local</li>
+                <li className='p-6 border-b border-gray-100 hover:text-[#C91B0E] cursor-pointer'>Bureau</li>
+                <li className='p-6 hover:text-[#C91B0E] cursor-pointer'>Projets</li>
+            </ul>
         </div>
     </div>
     
