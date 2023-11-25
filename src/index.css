@@ -8,3 +8,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Lato';
+  src: url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}

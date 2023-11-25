@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        homepage: ['HomepageBaukasten', 'sans-serif']
+        homepage: ['HomepageBaukasten', 'sans-serif'],
+        lato: ['Lato', 'sans-serif']
       }
     },
   },
