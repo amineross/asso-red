@@ -8,11 +8,12 @@ function App() {
   return (
     <div>
       {/* h-[827px] */}
-      <div className='bg-[#0A0B10] h-[2000px] w-screen'>
+      <div className='bg-[#0A0B10] h-[2000px] w-screen pl-4'>
         <HeroBackground/>
         <NavBar/>
         <Hero/>
         <Association/>
+           
       </div>
     </div>
   );
