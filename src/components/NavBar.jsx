@@ -27,7 +27,7 @@ const NavBar = () => {
 
         {/* Mobile Navbar */}
 
-        <img src={Logo} alt="RED Logo" className='md:hidden absolute left-[25px] top-[25px] scale-75'/>
+        <img src={Logo} alt="RED Logo" className='md:hidden absolute left-[5px] top-[25px] scale-75'/>
         
         <div className={nav ? 'z-20 fixed left-0 top-0 w-[60%] h-screen border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%]'}>
             <ul className='pt-8 uppercase'>
