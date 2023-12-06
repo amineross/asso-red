@@ -3,7 +3,7 @@ import MemberDefaultImg from '../assets/memberdefault.png'
 
 const membersData = [
   { name: 'Cartelot Adrien', role: 'Président' },
-  { name: 'Guret Maël', role: 'Vice-Président' },
+  { name: 'Guret Maëllys', role: 'Vice-Présidente' },
   { name: 'Nierat Gabriel', role: 'Trésorier' },
   { name: 'Le Roux Guénaël', role: 'Vice-Trésorier' },
   { name: 'Martin Alexis', role: 'Secrétaire' },
