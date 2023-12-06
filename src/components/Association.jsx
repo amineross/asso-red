@@ -7,7 +7,7 @@ import SphereImg from '../assets/sphere.png'
 const Association = () => {
     return (
       <div className='flex justify-center'>
-        <div className='flex justify-center w-[90%] max-w-[1225px] bg-[#FFF] mt-[100px] py-12 px-4 h-full rounded-3xl shadow-lg shadow-slate-400'>
+        <div className='flex justify-center w-[90%] max-w-[1225px] bg-[#FFF] mt-[100px] py-12 px-4 h-full rounded-3xl '>
           <div className="grid md:grid-cols-2 w-full md:ml-10 items-center">
             <div className="space-y-4 md:text-left text-center md:px-0 px-4">
               <h2 className="text-gray-900 md:text-4xl text-2xl font-bold tracking-wider">QUI SOMMES-NOUS ?</h2>
