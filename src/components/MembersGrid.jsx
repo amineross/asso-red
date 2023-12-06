@@ -3,7 +3,7 @@ import MemberDefaultImg from '../assets/memberdefault.png'
 
 const membersData = [
   { name: 'Cartelot Adrien', role: 'Président' },
-  { name: 'Guret Maëllys', role: 'Vice-Présidente' },
+  { name: 'Guret Maël', role: 'Vice-Président' },
   { name: 'Nierat Gabriel', role: 'Trésorier' },
   { name: 'Le Roux Guénaël', role: 'Vice-Trésorier' },
   { name: 'Martin Alexis', role: 'Secrétaire' },
@@ -19,7 +19,7 @@ const MembersGrid = () => {
   const bottomRowMembers = membersData.slice(2);
 
   return (
-    <div className='bg-white mt-40 w-full mx-auto px-8 py-16 flex justify-center text-center '>
+    <div className='bg-white w-full mx-auto px-8 py-16 flex justify-center text-center '>
       <div className='w-full max-w-[1225px]'>
         <h1 className='text-4xl font-bold mb-12'>LE BUREAU</h1>
         {/* Top row members */}

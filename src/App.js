@@ -6,6 +6,8 @@ import Association from './components/Association';
 import Members from './components/Members'
 import MembersGrid from './components/MembersGrid'
 import Local from './components/Local'
+import Projets from './components/Projets'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,13 +18,15 @@ function App() {
         <NavBar/>
         <Hero/>
         <Association/>
+        <Local/>
+        <Projets/>
         <div className='md:hidden'>
           <Members/>
         </div>
         <div className='hidden md:block'>
           <MembersGrid/>
         </div>
-        <Local/>
+        <Footer/>
       </div>
     </div>
   );

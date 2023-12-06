@@ -30,7 +30,7 @@ const Members = () => {
     }
 
     return (
-        <div className='bg-[#FFF] mt-40 h-[500px] w-full mx-auto py-16'>
+        <div className='bg-[#FFF]  h-[500px] w-full mx-auto py-16'>
             <h1 className='text-center text-4xl font-homepage text-gray-900 mx-4'>LE BUREAU</h1>
             <div className='relative flex items-center justify-center h-full'>
                 {/* Image */}
