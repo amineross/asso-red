@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/asso-red/static/css/main.11fca87a.css",
+    "main.js": "/asso-red/static/js/main.80f7a42f.js",
+    "static/media/hero-main-bg.png": "/asso-red/static/media/hero-main-bg.542f335d3930e1a36f32.png",
+    "static/media/rocket.png": "/asso-red/static/media/rocket.a87671a45108f5b497fa.png",
+    "static/media/sphere.png": "/asso-red/static/media/sphere.9877aa7e8590ea3813c2.png",
+    "static/media/esiea-red.jpg": "/asso-red/static/media/esiea-red.a81f7201e5ad51e42d83.jpg",
+    "static/media/esiea-retro.jpg": "/asso-red/static/media/esiea-retro.1f3971dff77ac558cb6f.jpg",
+    "static/media/HomepageBaukasten-Bold.ttf": "/asso-red/static/media/HomepageBaukasten-Bold.d1e0aaf5dc65669687cf.ttf",
+    "static/media/Logo.svg": "/asso-red/static/media/Logo.e4297efb389f978fa0db5ece525c9a66.svg",
+    "index.html": "/asso-red/index.html",
+    "main.11fca87a.css.map": "/asso-red/static/css/main.11fca87a.css.map",
+    "main.80f7a42f.js.map": "/asso-red/static/js/main.80f7a42f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11fca87a.css",
+    "static/js/main.80f7a42f.js"
+  ]
+}
