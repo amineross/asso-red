@@ -44,7 +44,7 @@ const Projets = () => {
                 {/* Rows with Large First Image */}
                 <div className="grid grid-cols-1 gap-6">
                     {newsItems.map((item, index) => (
-                        <div key={item.id} className={`relative shadow-black shadow-inner bg-white h-[20vh] p-4 rounded-lg overflow-hidden ${index === 0 ? 'md:col-span-2' : 'md:col-span-1'}`}>
+                        <div key={item.id} className={`relative shadow-black shadow-inner bg-white h-[300px] p-4 rounded-lg overflow-hidden ${index === 0 ? 'md:col-span-2' : 'md:col-span-1'}`}>
                             <img src={item.imageUrl} alt="" className='absolute inset-0 bg-gradient-to-t from-black to-transparent w-full h-full object-cover rounded-lg' />
                             <div className="absolute bottom-0 left-0 w-full h-4/5 bg-gradient-to-t from-black via-transparent to-transparent rounded-b-lg"></div>
                             <div className='relative z-10 p-4 flex flex-col justify-end h-full'>

@@ -5,7 +5,7 @@ import { useState } from 'react'
 const images = importAll(require.context('../assets/members/', false, /\.(png|jpe?g|svg)$/));
 const members = [
     { name: 'Cartelot Adrien', role: 'President' },
-    { name: 'Guret Maël', role: 'Vice-Président' },
+    { name: 'Guret Maëllys', role: 'Vice-Présidente' },
     { name: 'Nierat Gabriel', role: 'Trésorier' },
     { name: 'Le Roux Guénaël', role: 'Vice-Trésorier' }
 ];
