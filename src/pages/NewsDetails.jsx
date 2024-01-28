@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar';
-import HeroBackground from '../components/HeroBackground';
+
 import Footer from '../components/Footer'
 
 import NewsDetailsSection from '../components/NewsDetails/NewsDetailsSection';

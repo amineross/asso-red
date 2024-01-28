@@ -1,12 +1,12 @@
 import React from 'react'
 import NavBar from '../components/NavBar';
-import HeroBackground from '../components/HeroBackground';
-import Hero from '../components/Hero';
-import Association from '../components/Association';
-import Members from '../components/Members'
-import MembersGrid from '../components/MembersGrid'
-import Local from '../components/Local'
-import Projets from '../components/Projets'
+import HeroBackground from '../components/Home/HeroBackground';
+import Hero from '../components/Home/Hero';
+import Association from '../components/Home/Association';
+import Members from '../components/Home/Members'
+import MembersGrid from '../components/Home/MembersGrid'
+import Local from '../components/Home/Local'
+import Projets from '../components/Home/Projets'
 import Footer from '../components/Footer'
 
 function Home() {
