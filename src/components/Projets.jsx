@@ -39,7 +39,7 @@ const Projets = () => {
             <div className='md:col-span-2'>
                 <div className='mb-4 flex justify-between items-center'>
                     <h2 className='text-2xl font-bold text-white'>PROJETS</h2>
-                    <a href="/news" className='text-md text-white underline'>Tous les projets</a>
+                    <a href="/projects"ƒ className='text-md text-white underline'>Tous les projets</a>
                 </div>
                 {/* Rows with Large First Image */}
                 <div className="grid grid-cols-1 gap-6">

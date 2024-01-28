@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom';
 import Logo from '../assets/Logo.svg'
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
@@ -15,9 +16,15 @@ const NavBar = () => {
             <ul className=' z-10 hidden md:flex justify-between w-[90%] mx-auto mt-[40px] text-xl'>
                 <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Association</li>
                 <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Local</li>
-                <img src={Logo} alt="RED Logo" className=' scale-75'/>
-                <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Bureau</li>
-                <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Projets</li>
+                <Link to={"/"}>
+                    <img src={Logo} alt="RED Logo" className=' scale-75'/>
+                </Link>
+                <Link to={"/news"}>
+                    <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Actualités</li>
+                </Link>
+                <Link to={"/projects"}>
+                    <li className='p-4 hover:text-[#C91B0E] cursor-pointer'>Projets</li>
+                </Link>
             </ul>
             
         </div>
